@@ -39,3 +39,13 @@ console.log("Level 3");
 
 const search_name = (search) => names.filter(name => name.toLowerCase().includes(search));
 console.log(search_name("abdul"));
+
+console.log("Level 4");
+
+const names1 = ["Mr. Fahri", "Mr. Abdul", "Mrs. Josephhine"];
+const names2 = ["Mr. Joseph", "Mr. Paul", "Mrs. Paula", "Mr. Hakim"];
+
+const names3 = names1.concat(names2);
+names3.forEach(function (element) {
+    console.log(element);
+});
