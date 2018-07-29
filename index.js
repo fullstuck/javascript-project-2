@@ -20,3 +20,17 @@ const man = names.filter(name => name.includes("Mr."));
 man.forEach(function (element) {
     console.log(element);
 });
+
+console.log("Level 2");
+
+const male = names.filter(name => name.includes("Mr."));
+const female = names.filter(name => name.includes("Mrs."));
+const mapMale = male.map(name => name + " (male)");
+const mapFemale = female.map(name => name + " (female)");
+
+mapMale.forEach(function (element) {
+    console.log(element);
+});
+mapFemale.forEach(function (element) {
+    console.log(element);
+});
