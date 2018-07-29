@@ -34,3 +34,8 @@ mapMale.forEach(function (element) {
 mapFemale.forEach(function (element) {
     console.log(element);
 });
+
+console.log("Level 3");
+
+const search_name = (search) => names.filter(name => name.toLowerCase().includes(search));
+console.log(search_name("abdul"));
