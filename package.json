@@ -1,0 +1,22 @@
+{
+  "name": "javascript-project-2",
+  "version": "1.0.0",
+  "description": "Learn basic javascript 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifraher/javascript-project-2.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "M Alif Raher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alifraher/javascript-project-2/issues"
+  },
+  "homepage": "https://github.com/alifraher/javascript-project-2#readme"
+}
